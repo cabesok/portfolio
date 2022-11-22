@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.093dad77.css",
-    "main.js": "./static/js/main.5fc33dc8.js",
+    "main.js": "./static/js/main.187d5e18.js",
     "static/js/787.1ed0c42c.chunk.js": "./static/js/787.1ed0c42c.chunk.js",
     "static/media/alicana.jpg": "./static/media/alicana.80b725fba237e2279c09.jpg",
     "static/media/ucsf.jpg": "./static/media/ucsf.aba31d95b789e68614b2.jpg",
@@ -10,11 +10,11 @@
     "static/media/CV foto.jpeg": "./static/media/CV foto.3227a75841625ab000d1.jpeg",
     "index.html": "./index.html",
     "main.093dad77.css.map": "./static/css/main.093dad77.css.map",
-    "main.5fc33dc8.js.map": "./static/js/main.5fc33dc8.js.map",
+    "main.187d5e18.js.map": "./static/js/main.187d5e18.js.map",
     "787.1ed0c42c.chunk.js.map": "./static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.093dad77.css",
-    "static/js/main.5fc33dc8.js"
+    "static/js/main.187d5e18.js"
   ]
 }
