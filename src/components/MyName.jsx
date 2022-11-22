@@ -1,5 +1,6 @@
 
 import '../css/myname.css'
+import ph1 from './images/CV foto.jpeg';
 import Fade from 'react-reveal/Fade';
 
 const MyName = () => {
@@ -20,7 +21,7 @@ const MyName = () => {
 
                 <Fade right >
                 <div className="right">
-                    <img src='/images/CV foto.jpeg' ></img>
+                    <img src={ph1} ></img>
                 </div>
                 </Fade>
                 

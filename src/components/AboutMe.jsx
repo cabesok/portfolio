@@ -5,6 +5,15 @@ import Switch from './Switch';
 import Switch2 from './Switch2';
 import Fade from 'react-reveal/Fade';
 
+import cv from './images/CV foto.jpeg';
+import digitalhouse from './images/digitalhouse.jpg';
+import ucsf from './images/ucsf.jpg';
+import cetear from './images/cetear.jpg';
+import cambridge from './images/cambridge.jpg';
+import alicana from './images/alicana.jpg';
+import escueladelaplaza from './images/escueladelaplaza.jpg';
+
+
 
 const AboutMe = () => {
 
@@ -30,7 +39,7 @@ const AboutMe = () => {
             <Fade bottom>
             <div className='details' >
 
-                <img src='/images/CV foto.jpeg' className={`${inactive ? 'inactive' : ''}`}/>
+                <img src={cv} className={`${inactive ? 'inactive' : ''}`}/>
 
                 <div className={`right ${inactive ? 'inactive' : ''}`}>
 
@@ -55,32 +64,32 @@ const AboutMe = () => {
                    <article className='education' >
 
                         <div className="careers">
-                            <img src='images/digitalhouse.jpg' alt='logo' />
+                            <img src={digitalhouse} alt='logo' />
                             <p>Digital House - Full Stack Web Developer</p>
                         </div>
 
                         <div className="careers">
-                            <img src='images/ucsf.jpg' alt='logo' />
+                            <img src={ucsf} alt='logo' />
                             <p>UCSF - Audio and Image Design Technician</p>
                         </div>
 
                         <div className="careers">
-                            <img src='images/cetear.jpg' alt='logo' />
+                            <img src={cetear} alt='logo' />
                             <p>CETeAr - Sound Engineer</p>
                         </div>
 
                         <div className="careers">
-                            <img src='images/cambridge.jpg' alt='logo' />
+                            <img src={cambridge} alt='logo' />
                             <p className='cambridge' >Cambridge - "Examination for the Certificate of Competency in English" (E.C.C.E.)</p>
                         </div>
 
                         <div className="careers">
-                            <img src='images/alicana.jpg' alt='logo' />
+                            <img src={alicana} alt='logo' />
                             <p>A.L.I.C.A.N.A. - English Course</p>
                         </div>
 
                         <div className="careers">
-                            <img src='images/escueladelaplaza.jpg' alt='logo' />
+                            <img src={escueladelaplaza} alt='logo' />
                             <p>Escuela De La Plaza - Bilingual High School</p>
                         </div>
 

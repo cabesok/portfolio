@@ -4,6 +4,8 @@ import Fade from 'react-reveal/Fade';
 /* import Card from './Card'; */
 import projectsdata from '../data/projectsdata';
 
+import ph1 from './images/CV foto.jpeg';
+
 
 const Projects = () => {
 
@@ -44,7 +46,7 @@ const Projects = () => {
                     return(
                         <>
                     <article className='card' /* onClick={()=> handleTouch(project.id)} */ >
-                        <img src={project.image} alt="no img"></img>
+                        <img src={process.env.PUBLIC_URL + project.image} alt="no img"></img>
                         <div className={`layer ${active === project.id ? 'active' : ''}`}>
                             <h3> {project.name} </h3>
                             <p className='descriptionproject' > {project.description} </p>
@@ -85,7 +87,7 @@ const Projects = () => {
                     return(
                     <>    
                     <article className='card' /* onClick={()=> handleTouch(project.id)} */ >
-                        <img src={project.image} alt="no img"></img>
+                        <img src={process.env.PUBLIC_URL + project.image} alt="no img"></img>
                         <div className={`layer ${active === project.id ? 'active' : ''}`}>
                             <h3> {project.name} </h3>
                             <p className='descriptionproject' > {project.description} </p>
