@@ -1,0 +1,252 @@
+
+.myname {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+    height: 80vh;
+    width: 100vw;
+    min-height: 650px;
+
+    margin-top: 10vh;
+}
+
+.myname .container {
+    display: flex;
+    flex-direction: row;
+}
+
+.myname .container .left {
+    padding-left: 120px;
+    padding-top: 120px;
+    flex-basis: 50%;
+
+    /* border: green 1px solid; */
+}
+
+.myname .container .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 50%;
+
+    /* border: yellow 1px solid; */
+}
+
+.myname .container .right img {
+    border-radius: 50px;
+    width: 300px;
+    height: 300px;
+}
+
+.myname .container h1,h2,h3 {
+    line-height: 0.3;
+    letter-spacing: 0.6px;
+}
+
+
+.myname .container .hi {
+    font-size: 30px;
+    
+}
+
+.myname .container .hi span {
+    color: #5B74A6;
+    font-size: 30px;
+}
+
+.myname .container h2 {
+    font-size: 2.8rem;
+    font-weight: 600;
+    /* text-transform: uppercase; */
+    margin: 0px;
+    
+}
+
+.myname .container .designer span {
+    color: rgb(253, 48, 48);
+}
+
+.myname .container h1 {
+    font-size: 4.8rem;
+    font-weight: 600;
+    /* text-transform: uppercase; */
+    
+    color: #5B74A6;
+}
+.myname {
+    /* border: red 1px solid; */
+}
+.myname .container {
+    /* border: red 1px solid; */
+}
+.myname i {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    justify-self: flex-end;
+    color: rgb(253, 48, 48);
+    margin-bottom: 10px;
+    font-size: 25px;
+
+    /* border: red 1px solid; */
+}
+
+
+.parpadea {
+  
+    animation-name: parpadeo;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  
+    -webkit-animation-name:parpadeo;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+  }
+  
+  @-moz-keyframes parpadeo{  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+  }
+  
+  @-webkit-keyframes parpadeo {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+  }
+  
+  @keyframes parpadeo {  
+    0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+  }
+
+
+
+
+
+
+
+@media (max-width: 1400px) {
+    .myname .container h1 {
+        font-size: 65px;
+    }
+    .myname .container h2 {
+        font-size: 35px;
+    }
+    .myname .container h3 {
+        font-size: 5px;
+    }
+}
+
+@media (max-width: 1250px) {
+    .myname .container h1 {
+        font-size: 55px;
+    }
+    .myname .container h2 {
+        font-size: 25px;
+    }
+    .myname .container h3 {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .myname {
+        height: 100vh;
+    }
+    .myname .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .myname .container .right {
+        order: -1;
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 30px
+    }
+    
+    .myname .container .left {
+        padding-left: inherit;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        flex-basis: 100%;
+        width: 45%;
+        
+        
+    }
+}
+@media (max-width: 920px) {
+    .myname .container .left {
+        width: 50%;  
+    }
+}
+@media (max-width: 830px) {
+    .myname .container .left {
+        width: 60%;  
+    }
+}
+
+@media (max-width: 700px) {
+    .myname .container .left {
+        width: 70%;  
+    }
+}
+
+@media (max-width: 600px) {
+    .myname .container .left {
+        width: 80%;  
+    }
+}
+
+@media (max-width: 525px) {
+    .myname {
+        height: 95vh;
+    }
+    .myname .container .left {
+        width: 70%;  
+    }
+    .myname .container h1 {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 490px) {
+    .myname .container .left {
+        width: 80%;  
+    }
+    .myname .container h1 {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 430px) {
+    .myname .container .left {
+        width: 80%;  
+    }
+    .myname .container h1 {
+        font-size: 40px;
+    }
+    .myname .container h2 {
+        font-size: 22px;
+    }
+    .myname .container .left h3 {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 385px) {
+    .myname .container .left {
+        width: 80%;  
+    }
+    .myname .container h1 {
+        font-size: 35px;
+    }
+    
+}

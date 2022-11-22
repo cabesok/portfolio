@@ -1,0 +1,50 @@
+
+.menumobile {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(67, 68, 68, 0.97);
+    position: absolute;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    transition: all 0.5s;
+
+}
+
+.cross {
+    margin: 25px;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    
+}
+
+.menumobile ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100vw;
+
+}
+
+.menumobile li {
+    list-style: none;
+    
+    margin: 20px;
+    
+}
+
+.menumobile li a {
+    text-decoration: none;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 40px;
+}
+
+.hide {
+    left: -2000px;
+}

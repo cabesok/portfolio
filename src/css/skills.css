@@ -1,0 +1,117 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    width: 100vw;
+    height: 100vh;
+    min-height: 800px;
+    
+
+    /* border: red 1px solid; */
+    
+    /* background-image: url("/public/images/paper9.webp"); */
+    
+}
+
+.skills .space {
+    height: 10vh;
+    width: 100vw;
+
+    /* border: blue 1px solid; */
+
+}
+
+.skills .title {
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 4px solid #5B74A6;
+    margin-bottom: 50px;
+}
+
+.skills .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 85vw;
+}
+.skills .container .logos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    flex-basis: 15%;
+
+    margin: 20px;
+    transition: all .2s ease-in-out;
+}
+
+.skills .container .logos:hover {
+    transform: scale(1.1); 
+    
+}
+
+.skills .container .logos:hover > i {
+    color: antiquewhite;
+}
+
+.skills .container .logos i {
+    color: #5B74A6;
+    font-size: 50px;
+    
+}
+
+.skills .container .logos h5 {
+    display: inline-block;
+}
+
+
+
+
+
+@media (max-width: 1000px){
+    .skills {
+        height: 80vh;
+    }
+    .skills .container .logos {
+        flex-basis: 10%;
+        margin: 20px;
+    }
+
+    .skills .container .logos i {
+        font-size: 50px;
+    }
+    
+    .skills .container .logos h5 {
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 700px) {
+    .skills {
+        height: 90vh;
+    }
+}
+
+@media (max-width: 500px) {
+    .skills {
+        height: 100vh;
+    }
+    .skills .container .logos i {
+        font-size: 40px;
+    }
+    
+    .skills .container .logos h5 {
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 360px) {
+    .skills {
+        height: 120vh;
+    }
+}

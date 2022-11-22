@@ -1,0 +1,92 @@
+
+* {
+  /* margin: 0px;
+  padding: 0px; */
+  box-sizing: border-box;
+  font-family: "Sen", sans-serif;
+  line-height: 1.6;
+  letter-spacing: 1.5px;
+  color: #F8F8F8;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.App {
+  background-color: #030200;;
+  position: relative;
+}
+/* Fonts */
+
+.sfpro {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Colors */
+
+.black {
+  color: #030200;;
+}
+
+.black-bg {
+  background-color: #030200;;
+}
+
+.white {
+  color: #F8F8F8; 
+}
+
+.white-bg {
+  background-color: #F8F8F8;
+}
+
+.blue {
+  color: #5B74A6;
+}
+
+.blue-bg {
+  background-color: #5B74A6;
+}
+
+.blue2 {
+  color: #023059;
+}
+
+.blue2-bg {
+  background-color: #023059;
+}
+
+.blue3 {
+  color: #A3ABD9;
+}
+
+.blue3-bg {
+  background-color: #A3ABD9;
+}
+
+
+.App .sideicons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    right: 20px;
+    bottom: 120px;
+
+    
+    
+}
+
+.App .sideicons i {
+      font-size: 40px;
+      margin: 10px;
+      
+
+}
+
+.App .sideicons i:hover {
+  font-size: 50px;
+  color: #ffd930;
+}
