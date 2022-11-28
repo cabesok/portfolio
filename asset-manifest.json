@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "./static/css/main.093dad77.css",
-    "main.js": "./static/js/main.e2fc4c8f.js",
+    "main.css": "./static/css/main.71684930.css",
+    "main.js": "./static/js/main.f3caf442.js",
     "static/js/787.1ed0c42c.chunk.js": "./static/js/787.1ed0c42c.chunk.js",
+    "static/media/fotoportfolio7.jpg": "./static/media/fotoportfolio7.4b091fab8cb53e1e836d.jpg",
+    "static/media/fotoportfolio2.jpg": "./static/media/fotoportfolio2.02e0e39b271ae954ef96.jpg",
     "static/media/alicana.jpg": "./static/media/alicana.80b725fba237e2279c09.jpg",
     "static/media/ucsf.jpg": "./static/media/ucsf.aba31d95b789e68614b2.jpg",
     "static/media/escueladelaplaza.jpg": "./static/media/escueladelaplaza.d51ebcb7b6bc5ea29c71.jpg",
     "static/media/cetear.jpg": "./static/media/cetear.b1df4bbf88e7da9e8a17.jpg",
     "static/media/CV foto.jpeg": "./static/media/CV foto.3227a75841625ab000d1.jpeg",
     "index.html": "./index.html",
-    "main.093dad77.css.map": "./static/css/main.093dad77.css.map",
-    "main.e2fc4c8f.js.map": "./static/js/main.e2fc4c8f.js.map",
+    "main.71684930.css.map": "./static/css/main.71684930.css.map",
+    "main.f3caf442.js.map": "./static/js/main.f3caf442.js.map",
     "787.1ed0c42c.chunk.js.map": "./static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.093dad77.css",
-    "static/js/main.e2fc4c8f.js"
+    "static/css/main.71684930.css",
+    "static/js/main.f3caf442.js"
   ]
 }
