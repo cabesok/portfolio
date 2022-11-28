@@ -49,7 +49,7 @@ const projectsdata = [
         image: '/images/todolist.png',
         description:'Realized with React and Material UI',
         technologies: '',
-        link: 'https://todo-list-production-7695.up.railway.app/',
+        link: 'https://cabesok.github.io/todo-list/',
         github: 'https://github.com/cabesok/todo-list'
     }
 ]
