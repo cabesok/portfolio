@@ -5,7 +5,7 @@ import Switch from './Switch';
 import Switch2 from './Switch2';
 import Fade from 'react-reveal/Fade';
 
-import cv from './images/CV foto.jpeg';
+import cv from './images/fotoportfolio7.jpg';
 import digitalhouse from './images/digitalhouse.jpg';
 import ucsf from './images/ucsf.jpg';
 import cetear from './images/cetear.jpg';
@@ -45,8 +45,8 @@ const AboutMe = () => {
 
                 <div className='text' >
                     
-                    <p>   I have a passion for music and computers since I was a kid. </p>
-                    <p>   I first started my professional career as a sound engeneer in a recording studio. And rapidly developed into my other passion, digital multimedia design. </p>
+                    <p>   I'm an enthusiastic about music and computers since I was a kid. </p>
+                    <p>   I first started my professional career as a sound engeneer in a recording studio. And I rapidly introduced into my other passion, digital multimedia design. </p>
                     {/* <p>   I studied Fullstack Development while I worked on a TV studio editing and airing a daily news program. </p> */}
                     <p>   Nowadays I dedicate myself exclusively to developing code for web aplications and digital products. </p>
                     <p> I would really like to join a tech company where I can apply my knowledge and develop my professional career.</p>

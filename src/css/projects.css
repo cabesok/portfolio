@@ -7,7 +7,7 @@
     align-items: center;
     /* flex-wrap: wrap; */
     width: 100vw;
-    height: 100vh;
+    /* height: 100vh; */
     min-height: 900px;
     
     
@@ -142,9 +142,9 @@
 
 
 @media (max-width: 1000px) {
-    .projects {
+    /* .projects {
         height: 240vh;
-    }
+    } */
     .projects .card img {
         height: 100%;
         object-fit: cover;
@@ -158,7 +158,7 @@
 }
 
 @media (max-width: 670px) {
-    .projects {
+    /* .projects {
         height: 230vh;
-    }
+    } */
 }

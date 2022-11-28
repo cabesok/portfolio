@@ -5,7 +5,7 @@
     justify-content: space-between;
     
     
-    height: 80vh;
+    /* height: 80vh; */
     width: 100vw;
     min-height: 650px;
 
@@ -35,9 +35,9 @@
 }
 
 .myname .container .right img {
-    border-radius: 50px;
-    width: 300px;
-    height: 300px;
+    border-radius: 5px;
+    width: 400px;
+    height: 600px;
 }
 
 .myname .container h1,h2,h3 {
@@ -156,9 +156,9 @@
 }
 
 @media (max-width: 1100px) {
-    .myname {
+    /* .myname {
         height: 100vh;
-    }
+    } */
     .myname .container {
         flex-direction: column;
         justify-content: center;
@@ -206,9 +206,9 @@
 }
 
 @media (max-width: 525px) {
-    .myname {
+    /* .myname {
         height: 95vh;
-    }
+    } */
     .myname .container .left {
         width: 70%;  
     }

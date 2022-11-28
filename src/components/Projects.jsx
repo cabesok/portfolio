@@ -59,7 +59,7 @@ const Projects = () => {
                     </article>
 
                     <article className='card dos' onClick={()=> handleTouch(project.id)} >
-                        <img src={project.image} alt="no img"></img>
+                        <img src={process.env.PUBLIC_URL + project.image} alt="no img"></img>
                         <div className={`layer ${active === project.id ? 'active' : ''}`}>
                             <h3> {project.name} </h3>
                             <p className='descriptionproject' > {project.description} </p>
@@ -100,7 +100,7 @@ const Projects = () => {
                     </article>
 
                     <article className='card dos' onClick={()=> handleTouch(project.id)} >
-                        <img src={project.image} alt="no img"></img>
+                        <img src={process.env.PUBLIC_URL + project.image} alt="no img"></img>
                         <div className={`layer ${active === project.id ? 'active' : ''}`}>
                             <h3> {project.name} </h3>
                             <p className='descriptionproject' > {project.description} </p>

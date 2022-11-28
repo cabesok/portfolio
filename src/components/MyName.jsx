@@ -1,6 +1,7 @@
 
 import '../css/myname.css'
-import ph1 from './images/CV foto.jpeg';
+import ph1 from './images/fotoportfolio2.jpg';
+/* import ph1 from './images/siluetaBYN.png'; */
 import Fade from 'react-reveal/Fade';
 
 const MyName = () => {

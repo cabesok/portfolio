@@ -6,11 +6,10 @@
     align-items: center;
     flex-wrap: wrap;
     width: 100vw;
-    height: 100vh;
-    min-height: 900px;
+    /* height: 100vh; */
+    /* height: 800px; */
+    /* min-height: 900px; */
     
-    
-    /* border: 1px solid red; */
     
     /* background-image: url("/public/images/paper9.webp"); */
     background-repeat: no-repeat;
@@ -35,17 +34,19 @@
 
 .aboutme .details {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
+
+    /* border: blue 1px solid; */
 
 }
 
 .aboutme .details img {
-    margin-left: 30px;
-    margin-right: 15px;
+    margin-left: 0px;
+    margin-right: 75px;
     align-self: center;
-    width: 39%;
-    border-radius: 25px;
+    width: 480px;
+    /* border-radius: 25px; */
     flex-basis: 25%;
 }
 
@@ -55,8 +56,12 @@
     margin-right: 30px; */
     justify-content: center;
     align-items: center;
-    flex-basis: 40%;
+    flex-basis: 48%;
     
+}
+
+.aboutme .details .right .text p {
+    margin-bottom: 2px;
 }
 
 .aboutme .details .right .icons {
@@ -115,7 +120,13 @@
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
+    .aboutme {
+        margin-top: 130px;
+    }
+}
+
+@media (max-width: 1050px) {
     .aboutme .details {
         display: flex;
         flex-direction: column;
@@ -125,26 +136,34 @@
     }
     .aboutme .details img {
         align-self: center;
+        margin-right: 0px;
+        width: 630px;
         
         
-        border-radius: 25px;
-        flex-basis: 25%;
+        /* border-radius: 25px;
+        flex-basis: 25%; */
     }
     .aboutme .details .right .text {
-        
+        padding: 0 10%;
         margin: auto;
         margin-top: 40px;
     }
     .aboutme .details .right .text p {
-        margin-bottom: 15px;
+        margin-bottom: 10px;
     }
    
 }
 
-@media (max-width: 600px) {
-    .aboutme {
-        height: 120vh;
+@media (max-width: 900px) {
+    .aboutme .details img {
+        width: 100%;
     }
+}
+
+@media (max-width: 615px) {
+    /* .aboutme {
+        height: 120vh;
+    } */
     .right .education .careers {
         width: 400px;
     }
@@ -158,12 +177,23 @@
 }
 
 @media (max-width: 400px) {
+    .aboutme .details img {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .aboutme {
+        margin-bottom: 30px;
+    }
     .right .education .careers {
         width: 320px;
     }
     .right .education .careers .cambridge {
         font-size: 10px;
     }
+    
     
 }
 
